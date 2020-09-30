@@ -1,7 +1,4 @@
-
-
 import java.util.*;
-
 public class CoffeeMachine {
     
     public static int water=400;
@@ -114,7 +111,7 @@ public class CoffeeMachine {
                 System.out.println();
             }
         }
-       // display();
+       
         }
         
     }
@@ -134,7 +131,7 @@ public class CoffeeMachine {
         int l=scan.nextInt();
         disposable_cups=disposable_cups+l;
         System.out.println();
-       // display();
+       
 
     }
     public static void takeAction(){
@@ -142,7 +139,7 @@ public class CoffeeMachine {
         System.out.println("I gave you $"+money);
         money=0;
         System.out.println();
-       // display();
+      
         
     }
     public static void display(){
@@ -159,13 +156,12 @@ public class CoffeeMachine {
     
     public static void main(String[] args) {
         System.out.println("Starting to make a coffee\nGrinding coffee beans\nBoiling water\nMixing boiled water with crushed coffee beans\nPouring coffee into the cup\nPouring some milk into the cup\nCoffee is ready!");        
-        //display();
-        //Scanner s=new Scanner(System.in);
+     
      while(true){
          
         System.out.println("Write action (buy, fill, take, remaining, exit): ");
         String action=scan.nextLine();
-        //scan.nextInt();
+      
         if(action.equals("buy")){
             buyAction();
         }else if(action.equals("fill")){
