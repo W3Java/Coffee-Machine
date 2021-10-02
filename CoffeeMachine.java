@@ -162,15 +162,15 @@ public class CoffeeMachine {
         System.out.println("Write action (buy, fill, take, remaining, exit): ");
         String action=scan.nextLine();
       
-        if(action.equals("buy")){
+        if(action.equals("Buy")){
             buyAction();
-        }else if(action.equals("fill")){
+        }else if(action.equals("Fill")){
             fillAction();
-        }else if(action.equals("take")){
+        }else if(action.equals("Take")){
             takeAction();
-        }else if(action.equals("remaining")){
+        }else if(action.equals("Remaining")){
             display();
-        }else if(action.equals("exit")){
+        }else if(action.equals("Exit")){
             System.exit(0);
         }
      
